@@ -50,6 +50,7 @@ public class PlanSpec {
 
     Plan createPlan() {
         return new Plan(project(), "My Plan", "PLAN")
+		.linkedRepositories("svn")
                 .description("Plan created from Bamboo Java Specs");
     }
 }
