@@ -51,6 +51,6 @@ public class PlanSpec {
     Plan createPlan() {
         return new Plan(project(), "My Plan", "PLAN")
 		.linkedRepositories("Sigge repo")
-                .description("Plan created from Bamboo Java Specs 2");
+                .description("Plan created from Bamboo Java Specs 3");
     }
 }
