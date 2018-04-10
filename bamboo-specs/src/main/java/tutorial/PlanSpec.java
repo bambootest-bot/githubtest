@@ -44,8 +44,8 @@ public class PlanSpec {
 
     Project project() {
         return new Project()
-                .name("My Project")
-                .key("PROJ");
+                .name("Project 2")
+                .key("P2");
     }
 
     Plan createPlan() {
